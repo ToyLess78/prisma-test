@@ -1,10 +1,13 @@
 {
   "name": "prisma-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Prisma test project to connect to PostgreSQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js",
+    "prisma:studio": "prisma studio",
+    "prisma:pull": "prisma db pull",
+    "prisma:generate": "prisma generate"
   },
   "keywords": [],
   "author": "",
